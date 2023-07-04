@@ -119,6 +119,23 @@
   - [智能手表](opensource/case5)
   - [厂测案例](opensource/case6)
 - 优化&调试
+
+  - chrome调试
+    - [App调试技巧](debug/chrome/app)
+    - [使用chrome浏览器调试](debug/chrome/chrome)
+    - [DOM节点调试](debug/chrome/dom)
+
+  - 性能优化
+    - [性能调试分析](debug/performance/analysis)
+    - [卡片圆角性能损耗](debug/performance/loss)
+
+  - 内存调试
+    - [内存泄漏分析](debug/memory/leak)
+    - [应用内存泄漏问题排查一](debug/memory/leak_screen)
+
+  - 测试相关
+    - [monkey测试](debug/test/monkey)
+
 - 系统环境&编译
   - [系统配置](system_env_compile/sys_conf)
   - [不同系统适配要求](system_env_compile/ui_fit)

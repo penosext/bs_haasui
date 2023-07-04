@@ -15,26 +15,31 @@
 #### 截屏
 
 ```javascript
-miniapp_cli capture {path}/a.png    //path 为指定设备板子上的截屏路径，保存文件为a.png
+//path 为指定设备板子上的截屏路径，保存文件为a.png
+miniapp_cli capture {path}/a.png    
 ```
 
 #### 安装应用
 
 ```javascript
-miniapp_cli install {amrPath}  //amrPath amr应用在设备板子上所在的路径
+//amrPath amr应用在设备板子上所在的路径
+miniapp_cli install {amrPath}  
 ```
 
 #### 卸载应用
 
 ```javascript
-miniapp_cli uninstall {appid} //appid 应用的appid
+//appid 应用的appid
+miniapp_cli uninstall {appid} 
 ```
 
 #### 启动应用
 
 ```javascript
-miniapp_cli start {appId}  // appid  应用的appid
-miniapp_cli start {appId} {page} //跳转到该应用的page页面 在app.json中定义的pageName
+// appid  应用的appid
+miniapp_cli start {appId}  
+//跳转到该应用的page页面 在app.json中定义的pageName
+miniapp_cli start {appId} {page} 
 ```
 
 #### monkey测试
@@ -49,9 +54,12 @@ miniapp_cli stopMonkey    //关闭monkey
 #### 内存打印
 
 ```javascript
-miniapp_cli memoryUsage    //打印JS内存
-miniapp_cli memoryUsageGC   //打印触发GC之后的JS内存
-miniapp_cli dumpMemory      //将JS内存输出到/tmp/httpdump.snapshot中
+//打印JS内存
+miniapp_cli memoryUsage    
+//打印触发GC之后的JS内存
+miniapp_cli memoryUsageGC   
+//将JS内存输出到/tmp/httpdump.snapshot中
+miniapp_cli dumpMemory     
 ```
 
 #### 启动服务
@@ -59,5 +67,6 @@ miniapp_cli dumpMemory      //将JS内存输出到/tmp/httpdump.snapshot中
 该功能 需要基于框架V1.4版本，即API Version为 5 才可使用
 
 ```javascript
-miniapp_cli startService {appId} {service}  //service 应用的具体服务名
+//service 应用的具体服务名
+miniapp_cli startService {appId} {service}  
 ```

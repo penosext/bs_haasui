@@ -32,10 +32,11 @@
 
 (提供 Video 层与 UI 层的合成方案) 
 
+`<hole></hole>挖洞显示视频层`
+
 ## 阿里云商显棒 Malyan Dongle 
 
 ![](_images/阿里云商显棒.png) 
 ![](https://cdn.nlark.com/yuque/0/2022/png/22926258/1655276378821-1aac2f60-6b57-4b07-aa1d-510ae45196af.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0%2Fresize%2Cw_675%2Climit_0) 
 
 (支持音视频播放) 
-[商显棒相关文档](https://www.yuque.com/wcye0k/haasui/gxue3e) 
