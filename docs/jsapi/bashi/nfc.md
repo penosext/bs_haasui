@@ -11,7 +11,7 @@ import { ytwl } from "nfc"
 this.ytwl = new ytwl()
 ```
 
-## 3.ytwl方法,云梯物联刷卡模块
+## 3.ytwl方法,默认刷卡模块
 
 ### 3.1 init
 

@@ -67,7 +67,7 @@
 
   - [系统级别JSAPI](jsapi/system/system)
 
-    - [文件&加解密](jsapi/system/file_crypto)
+    - 文件&加解密
       - [fs-文件操作](jsapi/system/file_crypto/fs)
       - [storage-kv存储](jsapi/system/file_crypto/storage-kv)
       - [sqlite-数据库](jsapi/system/file_crypto/sqlite)
