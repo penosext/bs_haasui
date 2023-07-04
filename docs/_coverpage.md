@@ -1,10 +1,11 @@
 
 
-# WalOS开发文档 <small>2.4.0</small>
+# **八识haasui相关文档** <small>1.0</small>
 
-> Walos.
+![](_images/组件效果.gif)
 
-- 基于Linux的嵌入式操作系统
-- mqtt/本地http连接方式支持
+- 丰富的组件效果
+
+- 用js和vue开发嵌入式应用
 
 [Getting Started](index)

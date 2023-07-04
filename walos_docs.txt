@@ -1,2 +1,2 @@
-docsify serve ./walos_docs
+docsify serve ./docs
 开启监听
