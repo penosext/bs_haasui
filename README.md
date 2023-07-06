@@ -1,0 +1,1 @@
+[八识-Haasui文档](https://hassui.bashisense.com)
