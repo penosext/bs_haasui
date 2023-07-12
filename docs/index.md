@@ -56,7 +56,6 @@ AliOS Things、Linux、Window、MacOS 系统
 
 ## 推荐硬件 
 
-- CPU 频率：推荐 单核 >800MHZ，更高的频率效果更佳 
-- 框架资源占用 (纯软件绘制)：RAM 2.5MB~4MB， ROM 1.5MB (不包含字库) 
-- 一般场景 (720P 分辨率)：包含多个应用，推荐 8MB~16MB 内存，ROM(包含字库) 10MB~16MB 
+- X2500
+- X2600
 
