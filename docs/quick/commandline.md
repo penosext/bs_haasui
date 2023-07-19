@@ -9,7 +9,7 @@
 | **aiot-cli create [name]**   | 创建应用工程  | 通过命令行创建应用新工程                                     |
 | **cnpm run build**           | 编译Debug包   | 不会混淆JS文件，方便排查和调试，开发阶段推荐(性能会差 且 内存开销大) |
 | **cnpm run build:prod**      | 编译Release包 | 会混淆JS文件，正式版推荐                                     |
-| **cnpm run build:simulator** | 模拟器预览    | 电脑运行模拟器，如何运行见模拟器文档(待补上)                 |
+| **cnpm run build:simulator** | 模拟器预览    | 电脑运行模拟器，如何运行见模拟器文档                         |
 
 ## 应用创建
 

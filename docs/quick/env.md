@@ -40,7 +40,7 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 
 - 查看 cnpm 版本号，在终端中输入：cnpm -v 
 
-- 后面可以用 cnpm 命令替代 npm 
+- <font color=red>后面可以用 cnpm 命令替代 npm </font>
 
 ## 安装 VSCode 开发 IDE(推荐) 
 
@@ -78,6 +78,7 @@ cnpm install -g aiot-vue-cli@1.0.23  //当前cli最新版本我1.0.23
 ```
 
 > 如果运行 cli 出现错误：Error: Cannot find moudle 'request' 
+>
 > 可以尝试运行命令修复：cnpm install -g request semver prompts pump 
 
 ## 删除框架脚手架 

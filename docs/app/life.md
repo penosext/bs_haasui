@@ -4,7 +4,7 @@
 
 应用由多个页面组成.应用运行的各个阶段,可通过应用对象和页面对象获得应用生命周期回调.
 
-注：通过VSCode创建工程后，对应生命周期代码已被创建
+<font style="color:red">注：通过VSCode创建工程后，对应生命周期代码已被创建</font>
 
 ### 应用
 
@@ -69,7 +69,8 @@ export default App;
 
 应用的每个页面对应一个Page实例.如果在应用配置中页面路径直接指向一个Vue组件,框架会为页面自动创建一个对应的Page实例.
 页面启动时先执行对应的页面[page].js脚本,得到导出的Page对象后后执行页面的生命周期.
-**注:**页面展示以前(生命周期onShow被调用之前)需要通过setRootComponent方法给页面设置根组件(在生命周期onLoad中设置).
+
+<font style="color:red">**注:**页面展示以前(生命周期onShow被调用之前)需要通过setRootComponent方法给页面设置根组件(在生命周期onLoad中设置).</font>
 
 
 
