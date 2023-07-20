@@ -1,1 +1,1 @@
-[杭州八识WalOS HaaS UI开发文档](https://haasui.bashisense.com)
+[杭州八识WalOS HaaS UI开发文档](http://haasui.bashisense.com)
