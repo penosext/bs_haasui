@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./plugin/css/sidebar.min.css" />
   <link rel="stylesheet" href="./plugin/css/vue.css" />
+  <link rel="stylesheet" href="./plugin/css/mermaid.min.css" />
 
 
   <style>
@@ -207,9 +208,11 @@
     .token.property {
       color: #f06372;
     }
+
     .token.class-name {
       color: #f06372 !important;
     }
+
     a.section-link {
       font-size: .9rem !important;
     }
@@ -240,7 +243,32 @@
       loadSidebar: true,
       // subMaxLevel: 2,
       sidebarDisplayLevel: 1,
-      homepage: "index.md"
+      homepage: "index.md",
+      // mermaidConfig: {
+      //   querySelector: ".mermaid"
+      // }
+      plugins: [
+        function (hook, vm) {
+          hook.ready(function () {
+            mermaid.initialize({ startOnLoad: false });
+          });
+          hook.doneEach(function () {
+            mermaid.init(undefined, '.mermaid');
+          });
+        }
+      ],
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            var html = '';
+            if (code.match(/^sequenceDiagram/) || code.match(/^graph/) || code.match(/^gantt/)) {
+              html = '<div class="mermaid">' + code + '</div>';
+            }
+            var hl = Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup);
+            return html + '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + '</code></pre>';
+          }
+        }
+      }
     }
   </script>
   <!-- Docsify v4 -->
@@ -250,6 +278,8 @@
   <script src="./plugin/js/docsify-sidebar-collapse.min.js"></script>
   <script src="./plugin/js/zoom-image.min.js"></script>
   <script src="./plugin/js/docsify-copy-code.min.js"></script>
+  <script type="text/javascript" src="./plugin/js/mermaid.min.js"></script>
+
 </body>
 
 </html>

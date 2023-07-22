@@ -90,7 +90,8 @@
     - [mqtt](jsapi/bashi/mqtt)
     - [http](jsapi/bashi/http)
     - [httpserver](jsapi/bashi/httpserver)
-    - [nfc](jsapi/bashi/nfc)
+    - [刷卡](jsapi/bashi/nfc)
+    - [身份证](jsapi/bashi/pid)
     - [其它](jsapi/bashi/misc)
 
   - JSAPI扩展方案-v2

@@ -105,3 +105,65 @@ mAudio.play({ filename: "/home/walos/test.mp3", flag: 1 })
 mAudio.setvol({ vol: 100 })
 ```
 
+## 5.简单封装
+
+```javascript
+import { mpp, audio } from "mpp"
+import conf from "../conf/conf"
+import { DEFINE } from "../../utils/define"
+import { isString, isNumber, isObject, isFunction } from "../../utils/util"
+
+class Mpp {
+    mDisplay
+    mAudio
+
+    constructor() {
+        this.mDisplay = new mpp()
+        this.mAudio = new audio()
+        this.mAudio.open()
+    }
+
+    //传感器图像显示在屏幕上 0 白光，1红外
+    show(mode) {
+        if (!isNumber(mode) || (mode != 0 && mode != 1)) {
+            mode = 0
+        }
+        console.log("display mode:" + mode)
+        this.mDisplay.vishow({ mode: mode })
+    }
+    //设置亮度 0-100
+    setScreenBrightness(value) {
+        if (isNumber(value) && value >= 0 && value <= 100) {
+            this.mDisplay.set_brightness({ brightness: value })
+        }
+    }
+    setAuido(volume) {
+        if (isNumber(volume) && volume >= 0 && volume <= 100) {
+            this.mAudio.setvol({ vol: volume })
+        }
+    }
+    //播放语音
+    play(filename, isImm) {
+        if (!isString(filename)) {
+            return
+        }
+        if (isImm == true || isImm == 1) {
+            isImm = 1
+        } else {
+            isImm = 0
+        }
+        conf
+            .cfgGet(DEFINE.configUi.voiceMode)
+            .then((res) => {
+            if (res === "default") {
+                this.mAudio.play({ filename: filename, flag: isImm })
+            }
+        })
+            .catch((err) => {})
+    }
+}
+
+export default new Mpp()
+
+```
+
