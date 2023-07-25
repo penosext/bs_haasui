@@ -80,7 +80,7 @@
       - [pm-应用包管理](jsapi/system/falcon/pm)
       - [updater-应用升级](jsapi/system/falcon/updater)
 
-  - [八识扩展JSAPI](jsapi/bashi/bashi)
+  - [Walos扩展JSAPI](jsapi/bashi/bashi)
 
     - [算法](jsapi/bashi/algm)
     - [文件操作扩展](jsapi/bashi/file)
