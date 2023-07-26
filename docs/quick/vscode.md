@@ -12,7 +12,7 @@
 
 ### 1.1 从应用商店安装 
 
-在 VS Code 的插件市场中，搜索 HaaS UI（不要安装 HaaS Studio 切记），点击安装即可 
+在 VS Code 的插件市场中，搜索 <font color=red>Miniapp</font>，选择<font color=red>IoT Miniapp</font>点击安装即可 
 ![](../_images/vscode_应用商店.png) 
 
 ## 2、搭建开发环境 
@@ -27,7 +27,7 @@
 
 ### 3.1 配置框架工程创建路径 (可选) 
 
-●Project Path 用于配置框架工程的创建路径，配置后用户创建的应用工程，默认会放到 Project Path 中。若不配置，会将创建的工程放到~/haasui-works 路径下 ![](../_images/vscode_haasui_conf.png) ![](../_images/vscode_haasui_conf2.png)
+●插件设置中Workspace Path 用于配置框架工程的创建路径，配置后用户创建的应用工程，默认会放到 Workspace Pat 中。若不配置，会将创建的工程放到~/haasui-works 路径下  ![](../_images/vscode_haasui_conf2.png)
 
 ###  3.2 点击创建工程按钮 
 
