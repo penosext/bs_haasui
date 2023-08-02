@@ -19,7 +19,7 @@ let face = new jzface()
 
 - model ： 人脸模型路径
 - sn ： 算法sn
-- database ： 算法数据库保存路径，特征等信息都在这里面，比较重要
+- database ： 算法数据库保存路径，确保可访问，文件不需要存在。特征等信息之后都在这里面，比较重要
 - minface ： 最小人脸大小
 - livescore ：活体阈值，传0.5
 
@@ -32,9 +32,9 @@ let face = new jzface()
 ```javascript
 face
   .init({
-    model: "/home/walos/x2500_jzface/model",
+    model: "/home/walos/model",
     sn: "snsnsnsnsnsnsnsnsnsn",
-    database: "/home/walos/public/algm_face.db",
+    database: "/home/walos/algm_face.db",
     minface: 100,
     livescore: 0.5
   })
