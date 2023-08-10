@@ -112,6 +112,7 @@ import { mpp, audio } from "mpp"
 import conf from "../conf/conf"
 import { DEFINE } from "../../utils/define"
 import { isString, isNumber, isObject, isFunction } from "../../utils/util"
+import packageJson from "../../../package.json"
 
 class Mpp {
     mDisplay
@@ -121,6 +122,34 @@ class Mpp {
         this.mDisplay = new mpp()
         this.mAudio = new audio()
         this.mAudio.open()
+        this.readAppPath(this.cfgAppid()).then((res) => {
+            this.appPath = res
+            console.log(this.appPath)
+        })
+    }
+    cfgAppid() {
+        return packageJson.appid
+    }
+    //从配置文件中读取当前app的路径
+    async readAppPath(appid) {
+        const ret = await fs.readFile(
+            "/data/miniapp/data/mini_app/pkg/packages.json"
+        )
+        if (ret) {
+            const packages = JSON.parse(ret)
+            if (isObject(packages) && Array.isArray(packages.packages)) {
+                for (let index = 0; index < packages.packages.length; index++) {
+                    const element = packages.packages[index]
+                    if (isObject(element) && element.appid === appid) {
+                        return element.installPath
+                    }
+                }
+            }
+        }
+    }
+
+    cfgGetAudioPath(audioName) {
+        return this.appPath + "assets/audios/cn/" + audioName
     }
 
     //传感器图像显示在屏幕上 0 白光，1红外
@@ -160,6 +189,10 @@ class Mpp {
             }
         })
             .catch((err) => {})
+    }
+    //播放滴的一声
+    playDi() {
+        this.play(this.cfgGetAudioPath("qrcode.mp3"), 1)
     }
 }
 

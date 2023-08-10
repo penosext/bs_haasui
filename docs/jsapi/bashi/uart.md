@@ -8,7 +8,7 @@
 
 ```javascript
 import { uart } from "uart"
-let.com2 = new uart()
+let com2 = new uart()
 ```
 
 ## 3.视频方法

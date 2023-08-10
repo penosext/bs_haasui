@@ -85,6 +85,7 @@
     - [算法](jsapi/bashi/algm)
     - [文件操作扩展](jsapi/bashi/file)
     - [音视频](jsapi/bashi/mpp)
+    - [网络](jsapi/bashi/nm)
     - [gpio](jsapi/bashi/gpio)
     - [串口](jsapi/bashi/uart)
     - [mqtt](jsapi/bashi/mqtt)
@@ -92,7 +93,10 @@
     - [httpserver](jsapi/bashi/httpserver)
     - [刷卡](jsapi/bashi/nfc)
     - [身份证](jsapi/bashi/pid)
+    - [看门狗](jsapi/bashi/wdt)
+    - [时间](jsapi/bashi/time)
     - [其它](jsapi/bashi/misc)
+    - [webrtc](jsapi/bashi/webrtc)
 
   - JSAPI扩展方案-v2
 
