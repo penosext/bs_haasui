@@ -22,6 +22,18 @@
 
 [商业化客户 - 有道听力宝](https://detail.tmall.com/item.htm?abbucket=1&id=666601380809&rn=3a5a2befecae663e6c7425f5974f0263&scene=taobao_shop&spm=a1z10.1-b-s.w5003-24933023705.3.679e58fdti8rfv) 
 
+## 带屏智能音箱
+
+![](_images/天猫精灵.png) 
+
+产品：天猫精灵CCMINI
+
+产品上线时间：2020年9月份
+
+系统AliOS Things微内核版本
+
+应用&显示框架：轻量级小程序框架V1.0
+
 ## 智能面板 
 
 ![](_images/智能面板.gif) 
