@@ -271,6 +271,31 @@ face
 })
 ```
 
+### 3.11  config 动态配置参数
+
+#### 参数
+
+- minface ： 最小人脸像素
+
+#### 返回值
+
+- promise 成功返回0，失败抛出异常信息
+
+#### 用法示例
+
+```javascript
+face
+    .config(algm)
+    .then((res) => {
+    reslove(res === 0)
+})
+    .catch((err) => {
+    reject(err)
+})
+```
+
+
+
 ## 4. 人证比对相关方法
 
 ### 4.1 setmode
@@ -394,7 +419,7 @@ constructor() {
 }
 
 async init() {
-    let minface = await conf.cfgGet(DEFINE.configAlgm.algmFaceMin)
+    let minface = await conf.cfgGetInt(DEFINE.configAlgm.algmFaceMin)
     return new Promise((reslove, reject) => {
         //todo 测试关闭此处人脸初始化
         // resolve(true)
@@ -473,6 +498,29 @@ setEnable(enable) {
 
 getEnable() {
     return this.enable == 1
+}
+
+/**
+   配置算法模块
+   @param {Object} algm
+   @param {Object.Number} minface
+   @returns 
+   */
+doConfig(algm) {
+    return new Promise((reslove, reject) => {
+        if (!this.isInit) {
+            reslove(false)
+            return
+        }
+        this.face
+            .config(algm)
+            .then((res) => {
+            reslove(res === 0)
+        })
+            .catch((err) => {
+            reject(err)
+        })
+    })
 }
 
 // 每次face回调中都需要调这个方法，否则内存泄露

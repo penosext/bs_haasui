@@ -12,6 +12,6 @@ libs同级目录下新建名为 *assets* 的文件夹，资源文件可放此处
 
 
 
-libjsapi_wos.so需咨询获取
+libjsapi_wos.so [[下载](https://gitee.com/mzrui/bs_haasui/blob/master/libjsapi_wos.so)]
 
 打包为Walos刷机包和升级包,需在linux环境下，详见[打包仓库](https://gitee.com/WalOS/haasui-package)
