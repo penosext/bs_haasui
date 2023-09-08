@@ -13,6 +13,15 @@ const getmqttMode = () => {
 //不同厂商的默认mqtt配置
 const getmqttServer = () => {
   if (mode === "default") {
+    return {
+      host: "broker.emqxio.com",
+      port: "1883",
+      cid: "",
+      user: "",
+      pass: "",
+      pub: "",
+      sub: "",
+    }
   } else {
     //默认bashi的配置
     return {
