@@ -1,0 +1,4 @@
+*.amr
+.falcon_/
+.vscode/
+node_modules/

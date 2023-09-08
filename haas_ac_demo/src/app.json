@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "index": "pages/index/index.js",
+    "main": "pages/main/main.vue",
+    "config": "pages/conf/config.vue"
+  },
+  "options": {
+    "style": {
+      "lessPaths": ["styles"]
+    }
+  }
+}
