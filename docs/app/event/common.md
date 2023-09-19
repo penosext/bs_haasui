@@ -20,6 +20,8 @@ Dom和组件事件遵循Vue标准,可参考Vue事件文档:[事件处理](https:
 | click     | 点击事件 |
 | longpress | 长按事件 |
 
+另外还有 touchstart touchend touchmove这些事件用于扩展使用
+
 用户点击/长按/滑动等操作元素的事件,作用于元素/组件上.
 
 ```html

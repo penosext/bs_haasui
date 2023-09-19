@@ -1,6 +1,6 @@
 # 使用Chrome浏览器调试
 
-基于Chrome提供的DevTools协议进行调试，
+基于Chrome提供的DevTools协议进行调试，无法使用Edge等浏览器调试
 
 在chrome浏览器里输入：devtools://devtools/bundled/inspector.html?ws={ip地址}:9307
 

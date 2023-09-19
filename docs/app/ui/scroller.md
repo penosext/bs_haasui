@@ -81,6 +81,8 @@
      **H5 暂不支持该事件**，当列表开始滚动时触发，当前的内容高度和列表偏移会在 callback 中返回，示例参见 Demo。
    - `scrollend`
      **H5 暂不支持该事件**，与 `scrollstar` 类似，当列表结束滚动时触发，当前的内容高度和列表偏移会在 callback 中返回，示例参见 Demo。
+   - scrolltolower
+   - loadmore 加载更多
 
    注：scrollEventInterval 可控制 scroll 事件的调用间隔，有时候不需要频发检测scroll滚动位置，特别是影响mvvm值发生重绘的场景，适当调大该值可
 
@@ -97,7 +99,7 @@
    - `options {Object}`：可选项，属性为：
 
       - `offset {number}`：一个到其可见位置的偏移距离，默认是 0
-
+   
        例如
 
 ```javascript
