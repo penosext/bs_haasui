@@ -42,6 +42,6 @@ libjsapi_wos.so [[下载](https://gitee.com/mzrui/bs_haasui/blob/master/libjsapi
 
 打包为Walos刷机包和升级包,需在linux环境下，详见[打包仓库](https://gitee.com/WalOS/haasui-package)
 
-人脸识别demo [查看]([haasui-package: The package tool for HaasUI which develop with QuickJS. (gitee.com)](https://gitee.com/walosx/haasui-package))
+人脸识别demo [查看](https://gitee.com/mzrui/bs_haasui/tree/master/haas_ac_demo)
 
-一些其它demo[查看]([walosx/haasui-test-example (gitee.com)](https://gitee.com/walosx/haasui-test-example))
+一些其它demo[查看](https://gitee.com/walosx/haasui-test-example)
