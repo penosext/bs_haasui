@@ -20,7 +20,7 @@
 
 正常调试流程：
 
-1.ssh/串口登录设备，root     fasys2023
+1.ssh/串口登录设备，root    root密码请咨询供应商
 
 2.cd /home/walos
 
