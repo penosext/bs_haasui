@@ -33,10 +33,10 @@ http
   .request({
     url: 'https://www.baidu.com',
     method: "GET",
-    headers: ["test-head:test"],
+    headers: ["Content-Type:application/json"],
     timeout: 5,
   }).then(res=>{
-    console.log(JSON.stringify(res))
+    console.log(String.fromCharCode.apply(null, new Uint8Array(res)))
   }).catch(err=>{
     console.log(err)
   })
