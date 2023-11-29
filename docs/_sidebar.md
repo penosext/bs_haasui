@@ -16,7 +16,8 @@
   
 - 应用开发
 
-  - [生命周期](app/life)
+  - [应用生命周期](app/life)
+  - [全局&应用对象](app/global)
   - UI组件
 
     - [前端基础组件](app/ui/base)
