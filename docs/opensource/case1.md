@@ -10,7 +10,7 @@
 
 ## 示例代码下载 
 
-[代码下载](https://hli.aliyuncs.com/o/config/public-examples/falcon-demo.zip)
+[代码下载]((https://gitee.com/mzrui/bs_haasui/blob/master/falcon-demo-v2.zip)
 
 ##  Chrome浏览器体验 
 
