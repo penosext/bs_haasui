@@ -86,6 +86,7 @@
     - [算法](jsapi/bashi/algm)
     - [文件操作扩展](jsapi/bashi/file)
     - [音视频](jsapi/bashi/mpp)
+    - [本地视频播放](jsapi/bashi/mplayer)
     - [网络](jsapi/bashi/nm)
     - [gpio](jsapi/bashi/gpio)
     - [串口](jsapi/bashi/uart)
