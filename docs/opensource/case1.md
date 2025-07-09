@@ -14,7 +14,7 @@
 
 ##  Chrome浏览器体验 
 
-UI效果，可以通过浏览器体验，[请点击网站](https://hli.aliyuncs.com/xyfolder/miniapp-wasm/index.html)
+UI效果，可以通过浏览器体验，[请点击网站](miniapp/index.html)
 
 ##  简单讲解 
 
