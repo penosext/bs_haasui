@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IoT小程序演示</title>
+<title>IoT小程序WASM演示</title>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,17 +16,9 @@
 <body>
 <canvas id=tst_canvas></canvas>
 
-<script type="text/javascript" src="./appx.data.js"></script>
-<script type="text/javascript" src="./appx.js"></script>
-<script type="text/javascript" src="./index.js"></script>
-<script>
-        var Module = {
-            canvas: document.getElementById('tst_canvas'),
-            onRuntimeInitialized: function() {
-                // 此处可以执行初始化后的操作
-                console.log("Emscripten module initialized.");
-            }
-        };
-    </script>
+<script type="text/javascript" src="appx.data.js"></script>
+<script type="text/javascript" src="appx.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
 </body>
 </html>
