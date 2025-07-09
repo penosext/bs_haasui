@@ -8,7 +8,7 @@
 
 ### 示例代码下载 
 
-[代码下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/haasui_smart_clock.zip)
+[下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/haasui_smart_clock.zip)
 
 ### 简单讲解 
 
