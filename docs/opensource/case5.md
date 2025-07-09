@@ -8,7 +8,7 @@
 
 ### 示例代码下载
 
-[代码下载](https://hli.aliyuncs.com/o/config/haasui_smart_watch/haas-ui-watch.zip)
+[下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/haas-ui-watch.zip)
 
 ### 分辨率设置
 
