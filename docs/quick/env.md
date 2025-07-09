@@ -56,17 +56,17 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 
 ```shell
 Linux/MacOS X:
-sudo cnpm i aiot-vue-cli -g     //-g 表示全局安装，必须输入
+sudo cnpm i aiot-vue-cli -g
 
 Windows:
-cnpm i aiot-vue-cli -g     //-g 表示全局安装，必须输入
+cnpm i aiot-vue-cli -g
 ```
 
 - 查看 aiot-cli 版本号，在终端中输入: 
 
 
 ```shell
-aiot-cli -V     //大写的V
+aiot-cli -V
 ```
 
 - windows 系统：如果无法打印版本，需要配置环境变量 
@@ -74,7 +74,7 @@ aiot-cli -V     //大写的V
 - tip：强制安装某个版本 
 
 ```shell
-cnpm install -g aiot-vue-cli@1.0.23  //当前cli最新版本我1.0.23
+cnpm install -g aiot-vue-cli@1.0.23
 ```
 
 > 如果运行 cli 出现错误：Error: Cannot find moudle 'request' 
@@ -93,15 +93,15 @@ cnpm uninstall aiot-vue-cli
 
 - 模拟器自带一个演示 Demo，可以下载浏览 
 
-- [Mac 模拟器下载](https://hli.aliyuncs.com/o/config/simulator/haas-ui-simulator-mac-v2.zip) 
+- Mac 模拟器[下载](https://hli.aliyuncs.com/o/config/simulator/haas-ui-simulator-mac-v2.zip) 未知本站没测试
 
 	- 由于 Mac 电脑权限限制，zip 压缩包解压之后，在终端控制台进入模拟器文件夹下面，输入 ./appx 可运行该模拟器 
 
 	![](../_images/mac_simulator.png)
 
 
-- [Windows 模拟器下载](https://hli.aliyuncs.com/o/config/haasui/simulator/windows_x64/haasui-simulator-windows-64_v1.4.zip) 
+- Windows 模拟器[下载](https://hli.aliyuncs.com/o/config/haasui/simulator/windows_x64/haasui-simulator-windows-64_v1.4.zip) 可使用
 	- 解压之后，进入模拟器文件夹下面，输入 .\appx.exe 可运行该模拟器 
-- [Ubuntu (Linux PC) 模拟器下载](https://hli.aliyuncs.com/o/config/miniapp/haas-ui-simulator-ubuntu.zip) 
+- Ubuntu(Linux)模拟器[下载](https://hli.aliyuncs.com/o/config/miniapp/haas-ui-simulator-ubuntu.zip) 失败无法启动
 	- 安装 sdl2： sudo apt-get install libsdl2-dev 
 - 模拟器配置及运行注意事项请参考 [https://www.yuque.com/wcye0k/haasui/uymera](app/simulator/intro)
