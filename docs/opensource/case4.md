@@ -10,7 +10,7 @@
 
  示例代码下载 
 
-[下载链接](https://iotx-haas-linkin.oss-cn-shanghai.aliyuncs.com/o/config/public-examples/timer-examples.zip)
+[下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/timer-examples.zip)
 
  简单讲解 
 
