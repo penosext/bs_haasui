@@ -19,6 +19,14 @@
 <script type="text/javascript" src="./appx.data.js"></script>
 <script type="text/javascript" src="./appx.js"></script>
 <script type="text/javascript" src="./index.js"></script>
-
+<script>
+        var Module = {
+            canvas: document.getElementById('tst_canvas'),
+            onRuntimeInitialized: function() {
+                // 此处可以执行初始化后的操作
+                console.log("Emscripten module initialized.");
+            }
+        };
+    </script>
 </body>
 </html>
