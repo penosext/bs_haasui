@@ -10,7 +10,7 @@
 
 ### 代码下载
 
-[代码地址](https://iotx-haas-linkin.oss-cn-shanghai.aliyuncs.com/o/config/public-examples/haasui_factory_test.zip)
+[下载](https://raw.githubusercontent.com/penosext/bs_haasui/refs/heads/master/haasui_factory_test.zip)
 
 ## 简单讲解
 
