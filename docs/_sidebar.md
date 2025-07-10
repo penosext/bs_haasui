@@ -13,6 +13,7 @@
   - [开发插件](quick/vscode)
   - [命令行工具](quick/commandline)
   - [miniapp_cli指令介绍](quick/cli)
+  - [淫奇技巧](quick/specialskills)
   
 - 应用开发
 
