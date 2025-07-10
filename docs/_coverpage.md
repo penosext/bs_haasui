@@ -6,6 +6,12 @@
 
 - 丰富的组件效果
 
-- 用js和vue开发嵌入式应用
+- 更多的语言支持
 
-[Getting Started](index)
+- 用JavaScript,TypeScript,Vue3和C++开发嵌入式应用
+
+[开始编程之旅吧！](index)
+
+
+
+本项目是由杭八识文档改变而来
