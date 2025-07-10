@@ -13,7 +13,3 @@
 - 用JavaScript,TypeScript,Vue3和C++开发嵌入式应用
 
 [Start building trip](index)
-
-
-
-本项目是由杭八识文档改变而来
