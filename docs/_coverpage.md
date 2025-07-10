@@ -12,7 +12,7 @@
 
 - 用JavaScript,TypeScript,Vue3和C++开发嵌入式应用
 
-[开始编程之旅吧](index)
+[Start building trip](index)
 
 
 
