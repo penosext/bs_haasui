@@ -11,4 +11,4 @@
 
 - 用JavaScript,TypeScript,Vue3和C++开发嵌入式应用
 
-[Start building trip](index)
+[Start building trip](aboutfile)
