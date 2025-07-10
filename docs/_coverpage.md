@@ -1,7 +1,7 @@
 
 
 # **WalOS HaaS UI**
-# **开发文档** <small>1.0</small>
+# **开发文档** <small>1.1 beta</small>
 
 ![](_images/组件效果.gif)
 
