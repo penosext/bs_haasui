@@ -1,6 +1,8 @@
 
 
-# **WalOS HaaS UI开发文档** <small>1.0</small>
+# **WalOS HaaS UI**
+# **开发文档**
+<small>1.0</small>
 
 ![](_images/组件效果.gif)
 
@@ -10,7 +12,7 @@
 
 - 用JavaScript,TypeScript,Vue3和C++开发嵌入式应用
 
-[开始编程之旅吧！](index)
+[开始编程之旅吧](index)
 
 
 
