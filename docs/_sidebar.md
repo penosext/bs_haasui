@@ -12,9 +12,9 @@
   - [简单上手流程](quick/simple)
   - [开发环境安装](quick/env)
   - [开发插件](quick/vscode)
+  - [更多支持](quick/addts)
   - [命令行工具](quick/commandline)
   - [miniapp_cli指令介绍](quick/cli)
-  - [淫奇技巧](quick/specialskills)
   
 - 应用开发
 
